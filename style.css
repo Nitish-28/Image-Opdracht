@@ -1,0 +1,74 @@
+body {
+    padding-top: 30px;
+}
+
+.logodiv {
+    margin: auto;
+    width: 55%;
+    height: 100%;
+    /*border: 2px solid black;*/
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.links,
+a:link,
+a:active,
+a:visited {
+    color: blue;
+    display: inline-block;
+    font-size: 25px;
+}
+
+a:hover {
+    color: purple;
+}
+
+.text {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.textq {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #353535;
+    clip-path: inset(0 -100vmax);
+    z-index: -1;
+}
+
+.inverse {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #353535;
+    z-index: -1;
+}
+
+.fotos {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    padding-left: 10px;
+    overflow: auto;
+}
+
+.wrap {
+    display: flex;
+    height: 50px;
+    width: auto;
+}
+
+.wrap span {
+    align-self: flex-end;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: bottom;
+}
